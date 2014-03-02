@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TFHpple.h"
+#import "TFHppleElement.h"
+#import "XPathQuery.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource,NSURLConnectionDelegate>
+{
+    NSMutableData* receivedData;
+    NSMutableString *currentNodeContent;
+    NSMutableArray  *elementArray;
+}
+@property (strong, nonatomic) IBOutlet UIPickerView *pickerRPS;
+- (IBAction)btnPlay:(id)sender;
+@property (strong, nonatomic) IBOutlet UILabel *lblResult;
+@property (strong,nonatomic)NSArray* arrayRPS;
+@property (strong,nonatomic)NSString* parameter;
 @end

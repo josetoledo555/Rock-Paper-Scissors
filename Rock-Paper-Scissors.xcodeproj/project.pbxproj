@@ -21,6 +21,10 @@
 		828DF7E018C2A3EE00EE1278 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828DF7C218C2A3EE00EE1278 /* UIKit.framework */; };
 		828DF7E818C2A3EE00EE1278 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 828DF7E618C2A3EE00EE1278 /* InfoPlist.strings */; };
 		828DF7EA18C2A3EE00EE1278 /* Rock_Paper_ScissorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 828DF7E918C2A3EE00EE1278 /* Rock_Paper_ScissorsTests.m */; };
+		828DF7F418C2A44100EE1278 /* RPS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 828DF7F318C2A44100EE1278 /* RPS.jpg */; };
+		828DF83E18C2DFDF00EE1278 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 828DF83918C2DFDF00EE1278 /* TFHpple.m */; };
+		828DF83F18C2DFDF00EE1278 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 828DF83B18C2DFDF00EE1278 /* TFHppleElement.m */; };
+		828DF84018C2DFDF00EE1278 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 828DF83D18C2DFDF00EE1278 /* XPathQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		828DF7E518C2A3EE00EE1278 /* Rock-Paper-ScissorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rock-Paper-ScissorsTests-Info.plist"; sourceTree = "<group>"; };
 		828DF7E718C2A3EE00EE1278 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		828DF7E918C2A3EE00EE1278 /* Rock_Paper_ScissorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rock_Paper_ScissorsTests.m; sourceTree = "<group>"; };
+		828DF7F318C2A44100EE1278 /* RPS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RPS.jpg; sourceTree = "<group>"; };
+		828DF83818C2DFDF00EE1278 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		828DF83918C2DFDF00EE1278 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		828DF83A18C2DFDF00EE1278 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		828DF83B18C2DFDF00EE1278 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		828DF83C18C2DFDF00EE1278 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		828DF83D18C2DFDF00EE1278 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +123,7 @@
 		828DF7C418C2A3EE00EE1278 /* Rock-Paper-Scissors */ = {
 			isa = PBXGroup;
 			children = (
+				828DF83718C2DF8800EE1278 /* Hpple */,
 				828DF7CD18C2A3EE00EE1278 /* AppDelegate.h */,
 				828DF7CE18C2A3EE00EE1278 /* AppDelegate.m */,
 				828DF7D018C2A3EE00EE1278 /* Main.storyboard */,
@@ -126,6 +138,7 @@
 		828DF7C518C2A3EE00EE1278 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				828DF7F318C2A44100EE1278 /* RPS.jpg */,
 				828DF7C618C2A3EE00EE1278 /* Rock-Paper-Scissors-Info.plist */,
 				828DF7C718C2A3EE00EE1278 /* InfoPlist.strings */,
 				828DF7CA18C2A3EE00EE1278 /* main.m */,
@@ -150,6 +163,19 @@
 				828DF7E618C2A3EE00EE1278 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		828DF83718C2DF8800EE1278 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				828DF83818C2DFDF00EE1278 /* TFHpple.h */,
+				828DF83918C2DFDF00EE1278 /* TFHpple.m */,
+				828DF83A18C2DFDF00EE1278 /* TFHppleElement.h */,
+				828DF83B18C2DFDF00EE1278 /* TFHppleElement.m */,
+				828DF83C18C2DFDF00EE1278 /* XPathQuery.h */,
+				828DF83D18C2DFDF00EE1278 /* XPathQuery.m */,
+			);
+			name = Hpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +257,7 @@
 				828DF7D718C2A3EE00EE1278 /* Images.xcassets in Resources */,
 				828DF7C918C2A3EE00EE1278 /* InfoPlist.strings in Resources */,
 				828DF7D218C2A3EE00EE1278 /* Main.storyboard in Resources */,
+				828DF7F418C2A44100EE1278 /* RPS.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +279,9 @@
 				828DF7D518C2A3EE00EE1278 /* ViewController.m in Sources */,
 				828DF7CF18C2A3EE00EE1278 /* AppDelegate.m in Sources */,
 				828DF7CB18C2A3EE00EE1278 /* main.m in Sources */,
+				828DF83E18C2DFDF00EE1278 /* TFHpple.m in Sources */,
+				828DF84018C2DFDF00EE1278 /* XPathQuery.m in Sources */,
+				828DF83F18C2DFDF00EE1278 /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,9 +364,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2/**";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
 			};
 			name = Debug;
 		};
@@ -367,8 +405,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -460,6 +505,7 @@
 				828DF7EF18C2A3EE00EE1278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		828DF7F018C2A3EE00EE1278 /* Build configuration list for PBXNativeTarget "Rock-Paper-ScissorsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +514,7 @@
 				828DF7F218C2A3EE00EE1278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
